@@ -1,0 +1,55 @@
+/* Estilos comunes para todas las pantallas */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos específicos para pantallas pequeñas (menos de 600px de ancho) */
+  @media (max-width: 600px) {
+    /* Modificar el tamaño del texto */
+    body {
+      font-size: 14px;
+    }
+  
+    /* Ajustar el tamaño de las imágenes */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Estilos específicos para pantallas medianas (entre 600px y 900px de ancho) */
+  @media (min-width: 600px) and (max-width: 900px) {
+    /* Modificar el tamaño del texto */
+    body {
+      font-size: 16px;
+    }
+  
+    /* Ajustar el tamaño de las imágenes */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Estilos específicos para pantallas grandes (más de 900px de ancho) */
+  @media (min-width: 900px) {
+    /* Modificar el tamaño del texto */
+    body {
+      font-size: 18px;
+    }
+  
+    /* Ajustar el tamaño de las imágenes */
+    img {
+      max-width: 50%;
+      height: auto;
+    }
+  }
+  
+
+
+  /* ESTANDARIZAR TODOS LOS TAMAÑOS Y COLOR DE FUENTE */
+ul {
+    font-size: auto; /* Tamaño de fuente normal */
+    color: black; /* Color de fuente normal */
+  }
