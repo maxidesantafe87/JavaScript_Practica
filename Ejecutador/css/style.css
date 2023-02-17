@@ -1,8 +1,7 @@
-
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding: 1;
 }
 
 header {
@@ -46,10 +45,13 @@ footer {
 }
 
 .box {
-  width: 45%;
-  margin: 10px;
+  display: flex;
+  margin: 1px;
   padding: 20px;
   border: 2px solid red;
+  width: 45vh;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .box-green {
@@ -81,48 +83,51 @@ footer {
 
 
 #console {
-    max-width: 100%;
-    width: auto;
-    overflow-x: auto;
-    background-color: #f0f0f0;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin-top: 20px;
-    max-height: 300px;
-    height: auto;;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    font-size: 14px;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .footer-container {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .left-section a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .right-section p {
-    margin: 0;
-  }
+  max-width: 100%;
+  width: auto;
+  overflow-x: auto;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  max-height: 300px;
+  height: auto;
+  ;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.right-section p {
+  margin: 0;
+}
 
 
-  #codigo-js {
-    height: auto;
-    min-height: 100px;
-    max-height: 500px;
-    width: 100%;
-    padding: 10px;
-    font-size: 12px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    resize: vertical;
-  }
+#codigo-js {
+  height: auto;
+  min-height: 100px;
+  max-height: 500px;
+  width: 100%;
+  width: 480px;
+  padding: 10px;
+  font-size: 12px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  margin-bottom: 15px;
+}
