@@ -99,11 +99,18 @@ footer {
   background-color: #333;
   color: #fff;
   font-size: 14px;
-  padding: 20px;
+ 
   text-align: center;
+
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
 }
 
-.footer-container {
+/* .footer-container {
   display: flex;
   justify-content: space-between;
 }
@@ -115,7 +122,7 @@ footer {
 
 .right-section p {
   margin: 0;
-}
+} */
 
 
 #codigo-js {
