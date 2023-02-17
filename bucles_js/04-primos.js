@@ -1,5 +1,5 @@
 function primoCodigoConsola() {
-
+  
     // PUNTO 04
     console.log('%c-------------------------- Punto   04   -------------------------- ', 'background: orange; color: black');
 
