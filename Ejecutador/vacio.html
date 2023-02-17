@@ -5,6 +5,7 @@
    <link rel="stylesheet" href="css/style.css">
    <script src="js/consola.js"></script>
    <script src="js/limpiar.js"></script>
+   <script src="js/ejecutar.js"></script>
   </head>
 
   <body>
@@ -39,14 +40,23 @@
     </div>
         <div class="box-container">
 			<div id="contenedor-titulo-verde"></div>
-          <h2 class="box-title box-title-green">Título Verde</h2>
+          <h2 class="box-title box-title-green">Inserta Tu Codigo</h2>
+          
+          <!--- Insertar Codigo-->
+          <textarea id="codigo-js" placeholder="Ingresa tu código aquí"></textarea>
+          <button onclick="limpiar();ejecutarCodigo()">Ejecutar</button>
+          <!--- Insertar Codigo-->
+
           <div class="box-green">Contenido de la caja verde
 			<div id="console"></div>
 		  </div>
 		  
         </div>
       </div>
+
+      
 	</div>
+
     </main>
 
     <footer>
