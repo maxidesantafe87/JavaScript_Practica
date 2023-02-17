@@ -119,15 +119,13 @@ footer {
 
 
 #codigo-js {
-  height: auto;
-  min-height: 100px;
-  max-height: 500px;
-  width: 100%;
-  width: 480px;
-  padding: 10px;
-  font-size: 12px;
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  resize: vertical;
-  margin-bottom: 15px;
+
+  display: flex;
+  margin: 1px;
+  padding: 20px;
+  border: 2px solid green;
+  width: 45vh;
+  margin-right: 5px;
+  margin-left: 5px;
 }
+
